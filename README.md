@@ -13,6 +13,6 @@ No external lib required, based on Raspbian Strech version dated November 13th 2
 Once launched, display a 'splash screen' for 1 second (8TN.png) then display measured value.
 
 Zero settings and scale ratio are done through cal_zero and cal_1kg variables (depends on each set of the sensors).
-Sevral reading are averaged to get almost a gram stable reading (variable avgnr).
+Several readings are averaged to get almost a gramm stable reading (variable avgnr).
 
 Empirical values are filtered out based on specific values and when measures took too long (very likely related to the fact that the bit banging is not time accurate due to Linux OS, this is likely to be fixed with proper SPI specific lib usage, ... but works good for my usage like that...!).
