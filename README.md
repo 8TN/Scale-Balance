@@ -16,3 +16,6 @@ Zero settings and scale ratio are done through cal_zero and cal_1kg variables (d
 Several readings are averaged to get almost a gramm stable reading (variable avgnr).
 
 Empirical values are filtered out based on specific values and when measures took too long (very likely related to the fact that the bit banging is not time accurate due to Linux OS, this is likely to be fixed with proper SPI specific lib usage, ... but works good for my usage like that...!).
+
+result can be seen at the end of this video :
+https://www.youtube.com/watch?v=bj6awnta67Y
